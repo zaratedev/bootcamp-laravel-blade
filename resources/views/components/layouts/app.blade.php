@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>@yield('title', 'Bootcamp PHP / Laravel')</title>
+    <title>{{ $title ?? 'Bootcamp PHP / Laravel' }}</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
@@ -81,11 +81,11 @@
 
 <body>
     <header>
-        <h1>@yield('head', 'Bootcamp PHP / Laravel')</h1>
+        <h1>{{ $head ?? 'Bootcamp PHP / Laravel' }}</h1>
     </header>
 
     <div class="container">
-        @yield('content')
+        {{ $slot }}
     </div>
 
     <footer>
