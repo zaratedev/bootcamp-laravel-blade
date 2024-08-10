@@ -1,0 +1,1 @@
+<textarea name="{{$name}}" id="{{$id}}" rows="{{$rows}}" class="{{$class}}"></textarea>

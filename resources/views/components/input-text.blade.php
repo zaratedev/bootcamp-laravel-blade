@@ -1,0 +1,1 @@
+<input type="text" name="{{$name}}" id="{{$id}}" autocomplete="{{$autocomplete}}" class="{{$class}}">
